@@ -6,7 +6,7 @@ const bot = new Telegraf(BOT_TOKEN);
 bot.command('aaa', async (ctx) => {
     try {
         const photoUrl = 'https://horrorzone.ru/uploads/_announcements/46573/mini/original-750-300.jpg';
-        const caption = 'хочешь увидеть лютую запрещенку? Мясо,расчлененка,порно с мясом,вскртием детей и животных,заходи https://t.me/+dmq65BUGB_U5Yzdi ,скоро там начнётся веселие';
+        const caption = 'хочешь увидеть лютую запрещенку? Мясо,расчлененка,порно с мясом,вскрытием детей и животных,скоро я скину тебе ссылку если ты конечно не зассал';
         
         // Отправляем фото с текстом как подпись
         await ctx.replyWithPhoto(photoUrl, {
