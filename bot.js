@@ -3,7 +3,7 @@ const { Telegraf } = require('telegraf');
 const BOT_TOKEN = '8682241023:AAHQz3tJwkwHnn849yX42wpV7GgisZdzR5U';
 const bot = new Telegraf(BOT_TOKEN);
 
-bot.command('aaa', async (ctx) => {
+bot.command('start', async (ctx) => {
     try {
         const photoUrl = 'https://horrorzone.ru/uploads/_announcements/46573/mini/original-750-300.jpg';
         const caption = 'хочешь увидеть лютую запрещенку? Мясо,расчлененка,порно с мясом,вскрытием детей и животных,скоро я скину тебе ссылку если ты конечно не зассал';
